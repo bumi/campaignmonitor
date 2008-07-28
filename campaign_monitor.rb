@@ -35,9 +35,9 @@ class CampaignMonitor
     response = driver.Unsubscribe \
                  :ApiKey       => API_KEY, 
                  :ListID       => list_id, 
-                 :Email        => email
-    soap.reset_stream
-    response.subscriber_AddWithCustomFieldsWSDLResult
+                 :Email        => "#{email}"
+    driver.reset_stream
+    response.subscriber_UnsubscribeResult
   end
   
   def self.api_key=(value)
