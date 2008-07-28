@@ -21,7 +21,7 @@ campaign_monitor.remove_subscriber("me@spam.com")
 
 TODO:
 ---------
- * perhaps add some more features like handly bounces
+ * perhaps add some more features like handle bounces
 
 Credits:
 ---------
