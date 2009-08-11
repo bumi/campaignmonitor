@@ -28,7 +28,7 @@ class CampaignMonitor
                        custom_fields
                      }
     driver.reset_stream
-    response.subscriber_AddAndResubscribeWithCustomFieldsWSDLResult
+    response.subscriber_AddAndResubscribeWithCustomFieldsResult
   end
 
   def remove_subscriber(email)
