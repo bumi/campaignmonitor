@@ -3,7 +3,7 @@ require 'soap/wsdlDriver'
 class CampaignMonitor
 
 	@@api_key = ""
-  @@driver = SOAP::WSDLDriverFactory.new("http://app.campaignmonitor.com/api/api.asmx?WSDL").create_rpc_driver
+  @@driver = SOAP::WSDLDriverFactory.new("http://api.createsend.com/api/api.asmx?wsdl").create_rpc_driver
   
   attr_accessor :list_id
 
